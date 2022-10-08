@@ -35,11 +35,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     visibility: hidden;
+    opacity: 0;
     border-radius: 10px 10px 0 0;
+    transition: 0.2s ease-out;
 }
 
 .mobile-img.img-show {
     visibility: visible;
+    opacity: 100;
 }
 
 .mobile-tabs {
